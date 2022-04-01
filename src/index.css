@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Gilroy-Balck'), url('./Gilroy-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Gilroy-Bold'), url('./Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Regular'), url('https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Gilroy-Light'), url('https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body {
+    font-family: Gilroy;
+    font-weight: 400;
+}
+
+/* =========== WORKFLOW BLOCK ================= */
+.workflow_item {
+    flex-basis: 400px;
+}
+
+
+/* ============= BUY BLOCK ================= */
+.buy_block {
+    grid-template-columns: 380px repeat(2, 350px);
+    grid-template-rows: repeat(2, 245px);
+}
+
+
+/* ============= FAQ BLOCK ============== */
