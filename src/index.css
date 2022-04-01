@@ -54,3 +54,6 @@ body {
 
 
 /* ============= FAQ BLOCK ============== */
+.faq_block_col {
+    flex-basis: 540px;
+}
