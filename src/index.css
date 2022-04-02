@@ -57,3 +57,13 @@ body {
 .faq_block_col {
     flex-basis: 540px;
 }
+
+/* ============= TESTIMONIALS BLOCK ============== */
+.testimonials_block {
+    width: 570px;
+}
+
+.testimonials_block .testimonial_item {
+    width: 485px;
+    height: 110px;
+}
