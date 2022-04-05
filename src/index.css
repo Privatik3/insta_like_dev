@@ -67,3 +67,10 @@ body {
     width: 485px;
     height: 110px;
 }
+/* ============= FEEDBACK REVIEWS BLOCK ============== */
+.form_reviews_block {
+    flex-basis: 350px;
+}
+.form_reviews_block input, .form_reviews_block textarea{
+    border-width: 1px;
+}
